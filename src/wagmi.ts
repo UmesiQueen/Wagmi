@@ -36,7 +36,10 @@ createWeb3Modal({
   metadata,
   wagmiConfig: config,
   projectId,
-  enableAnalytics: true // Optional - defaults to your Cloud configuration
+  enableAnalytics: true,// Optional - defaults to your Cloud configuration
+  themeVariables: {
+    '--w3m-accent': '#7c3aed',
+  }
 })
 
 
